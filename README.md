@@ -262,16 +262,13 @@ results = batch_evaluate(
 
 ```
 psycrisis-bench/
-├── Data/
-│   ├── psycrisis_dataset.json    # Full dataset / 完整数据集 (608 samples)
-│   └── sample_responses/          # Example LLM responses / LLM回复示例
 ├── Code/
-│   ├── evaluate.py               # Main evaluation script / 主评估脚本
-│   ├── prompts/                  # Evaluation prompts / 评估提示词
-│   └── utils/                    # Utility functions / 工具函数
+│   └── evaluate.py                            # Evaluation script / 评估脚本
+├── Data/
+│   ├── PsyCrisis-Bench.xlsx                   # 608 user utterances / 608条用户表述，用于评估
+│   └── output_response_human_annotation_800.xlsx  # 800 expert annotations / 800条专家标注
 ├── README.md
-├── requirements.txt
-└── License
+├── LICENSE
 ```
 
 ## Contact / 联系方式
