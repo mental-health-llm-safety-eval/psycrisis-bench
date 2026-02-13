@@ -119,11 +119,14 @@ Human evaluation confirms superior **rationality**, **traceability**, and **cons
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{psycrisis2025,
-  title={Exploring Safety Alignment Evaluation of LLMs in Chinese Mental Health Dialogues via LLM-as-Judge},
-  author={Anonymous},
-  booktitle={Proceedings of ACL/EMNLP},
-  year={2025}
+@misc{exploringsafetyalignmentevaluation,
+      title={Exploring Safety Alignment Evaluation of LLMs in Chinese Mental Health Dialogues via LLM-as-Judge}, 
+      author={Yunna Cai and Fan Wang and Haowei Wang and Kun Wang and Kailai Yang and Sophia Ananiadou and Moyan Li and Mingming Fan},
+      year={2025},
+      eprint={2508.08236},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.08236}, 
 }
 ```
 
