@@ -18,7 +18,7 @@
 ### Overview
 
 <p align="center">
-  <img src="framework2.png" alt="PsyCrisis Framework" width="800"/>
+  <img src="framework.png" alt="PsyCrisis Framework" width="800"/>
 </p>
 
 PsyCrisis is the **first evaluation framework** specifically designed for assessing LLM safety alignment in **high-risk Chinese mental health dialogues**. It enables **reference-free assessment** with **interpretable outcomes** for crisis-related conversations involving suicidal ideation, self-harm, and existential distress.
