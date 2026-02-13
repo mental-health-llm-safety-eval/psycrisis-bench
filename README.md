@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](License)
 [![Dataset](https://img.shields.io/badge/Dataset-608%20samples-blue.svg)](#dataset--数据集)
-[![Paper](https://img.shields.io/badge/Paper-ACL%2FEMNLP-red.svg)](#citation--引用)
+[![Paper](https://img.shields.io/badge/Paper-Under%20Review-orange.svg)](#citation--引用)
 
 [English](#english) | [中文](#中文)
 
@@ -129,6 +129,7 @@ If you find this work useful, please cite our paper:
       url={https://arxiv.org/abs/2508.08236}, 
 }
 ```
+> 📝 **Note**: This paper is currently under review. Citation information will be updated upon publication.
 
 ### Ethics Statement
 
