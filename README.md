@@ -68,9 +68,6 @@ We employ an **LLM-as-Judge** approach with:
 git clone https://github.com/mental-health-llm-safety-eval/psycrisis-bench.git
 cd psycrisis-bench
 
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ### Quick Start
 
@@ -104,13 +101,7 @@ results = batch_evaluate(
 
 ### Experimental Results
 
-Our method achieves significantly higher agreement with human expert annotations:
-
-| Metric | General | Rule-based | **Ours** |
-|--------|---------|------------|----------|
-| System-level Pearson | 0.270 | 0.152 | **0.484** |
-| Spearman Correlation | 0.250 | 0.155 | **0.453** |
-| Kendall's Tau | 0.234 | 0.134 | **0.406** |
+Our method achieves significantly higher agreement with human expert annotations.
 
 Human evaluation confirms superior **rationality**, **traceability**, and **consistency** of generated rationales.
 
@@ -198,9 +189,7 @@ PsyCrisis 数据集包含 **608 条真实中文用户表述**，涵盖三种高�
 git clone https://github.com/mental-health-llm-safety-eval/psycrisis-bench.git
 cd psycrisis-bench
 
-# 安装依赖
-pip install -r requirements.txt
-```
+
 
 ### 快速开始
 
@@ -234,13 +223,7 @@ results = batch_evaluate(
 
 ### 实验结果
 
-我们的方法与人类专家标注达到显著更高的一致性：
-
-| 指标 | General | Rule-based | **Ours** |
-|------|---------|------------|----------|
-| 系统级 Pearson 相关 | 0.270 | 0.152 | **0.484** |
-| Spearman 相关 | 0.250 | 0.155 | **0.453** |
-| Kendall's Tau | 0.234 | 0.134 | **0.406** |
+我们的方法与人类专家标注达到显著更高的一致性。
 
 人工评估证实我们方法生成的解释在**合理性**、**可追溯性**和**一致性**方面均优于基线方法。
 
