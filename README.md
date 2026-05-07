@@ -1,12 +1,9 @@
-# PsyCrisis-Bench
-
-**Exploring Safety Alignment Evaluation of LLMs in Chinese Mental Health Dialogues via LLM-as-Judge**
+# PsyCrisis-Protocol
 
 **基于 LLM-as-Judge 的中文心理健康对话安全对齐评估研究**
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](License)
 [![Dataset](https://img.shields.io/badge/Dataset-608%20samples-blue.svg)](#dataset--数据集)
-[![Paper](https://img.shields.io/badge/Paper-Under%20Review-orange.svg)](#citation--引用)
 
 [English](#english) | [中文](#中文)
 
@@ -21,7 +18,7 @@
   <img src="framework2.png" alt="PsyCrisis Framework" width="800"/>
 </p>
 
-PsyCrisis is the **first evaluation framework** specifically designed for assessing LLM safety alignment in **high-risk Chinese mental health dialogues**. It enables **reference-free assessment** with **interpretable outcomes** for crisis-related conversations involving suicidal ideation, self-harm, and existential distress.
+PsyCrisis is the **first evaluation protocol** specifically designed for assessing LLM safety alignment in **high-risk Chinese mental health dialogues**. It enables **reference-free assessment** with **interpretable outcomes** for crisis-related conversations involving suicidal ideation, self-harm, and existential distress.
 
 ### Key Features
 
@@ -105,22 +102,6 @@ Our method achieves significantly higher agreement with human expert annotations
 
 Human evaluation confirms superior **rationality**, **traceability**, and **consistency** of generated rationales.
 
-### Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@misc{exploringsafetyalignmentevaluation,
-      title={Exploring Safety Alignment Evaluation of LLMs in Chinese Mental Health Dialogues via LLM-as-Judge}, 
-      author={Yunna Cai and Fan Wang and Haowei Wang and Kun Wang and Kailai Yang and Sophia Ananiadou and Moyan Li and Mingming Fan},
-      year={2025},
-      eprint={2508.08236},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.08236}, 
-}
-```
-> 📝 **Note**: This paper is currently under review. Citation information will be updated upon publication.
 
 ### Ethics Statement
 
@@ -227,21 +208,6 @@ results = batch_evaluate(
 
 人工评估证实我们方法生成的解释在**合理性**、**可追溯性**和**一致性**方面均优于基线方法。
 
-### 引用
-
-如果您觉得本工作有用，请引用我们的论文：
-
-```bibtex
-@misc{2025exploringsafetyalignmentevaluation,
-      title={Exploring Safety Alignment Evaluation of LLMs in Chinese Mental Health Dialogues via LLM-as-Judge}, 
-      author={Yunna Cai and Fan Wang and Haowei Wang and Kun Wang and Kailai Yang and Sophia Ananiadou and Moyan Li and Mingming Fan},
-      year={2025},
-      eprint={2508.08236},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.08236}, 
-}
-```
 
 ### 伦理声明
 
@@ -270,14 +236,6 @@ psycrisis-bench/
 ├── README.md
 ├── LICENSE
 ```
-
-## Contact / 联系方式
-
-For questions or collaborations, please open an issue or contact the authors.
-
-如有问题或合作意向，请提交 Issue 或联系作者。
-
----
 
 <p align="center">
   <i>Advancing responsible NLP for mental health safety</i><br>
